@@ -2,7 +2,7 @@
 set -e
 
 sudo apt-get update
-sudo apt-get install -y neovim
+sudo apt-get install -y neovim tmux
 
 mkdir -p "$HOME/.config"
 ln -sfn "$(pwd)" "$HOME/.config/nvim"
